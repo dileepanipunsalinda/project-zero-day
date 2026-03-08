@@ -57,7 +57,7 @@ function AppRoutes() {
 export default function App() {
   return (
     <AuthProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/project-zero-day">
         <AppRoutes />
       </BrowserRouter>
     </AuthProvider>
