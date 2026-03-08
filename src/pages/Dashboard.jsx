@@ -88,9 +88,6 @@ function AddDebtModal({ onClose, onAdd }) {
               {loading ? 'Adding…' : 'Add Debt'}
             </button>
           </div>
-
-          {/* log the env data here for testing */}
-          {console.log('ENV DATA:', import.meta.env)}
         </form>
       </div>
     </div>

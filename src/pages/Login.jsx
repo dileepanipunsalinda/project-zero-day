@@ -64,6 +64,9 @@ export default function Login() {
           </div>
         )}
 
+        {/* log the env data here for testing */}
+        {console.log('ENV DATA:', import.meta.env)}
+
         {/* Error */}
         {error && <div className="login-error">{error}</div>}
 
