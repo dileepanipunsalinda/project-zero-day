@@ -64,18 +64,6 @@ export default function Login() {
           </div>
         )}
 
-        {/* log the env data here for testing */}
-        {<div>
-          ENV DATA: <br />
-          {import.meta.env.VITE_FIREBASE_API_KEY} <br />
-          {import.meta.env.VITE_FIREBASE_AUTH_DOMAIN} <br />
-          {import.meta.env.VITE_FIREBASE_PROJECT_ID} <br />
-          {import.meta.env.VITE_FIREBASE_STORAGE_BUCKET} <br />
-          {import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID} <br />
-          {import.meta.env.VITE_FIREBASE_APP_ID} <br />
-          {import.meta.env.VITE_FIREBASE_MEASUREMENT_ID} <br />
-        </div>}
-
         {/* Error */}
         {error && <div className="login-error">{error}</div>}
 
